@@ -1,0 +1,41 @@
+TestAutomation/
+│
+├── src/main/java/
+│   ├── pages/                # Page classes (POM)
+│   │   ├── LoginPage.java
+│   │   ├── NewUserPage.java
+│   │   ├── SearchPage.java
+│   │   └── ApplyLeavePage.java
+│   │
+│   ├── utils/                # Utilities
+│   │   ├── ReadExcel.java
+│   │   ├── ConfigReader.java
+│   │   ├── ScreenshotUtil.java
+│   │   └── DriverFactory.java
+│   │
+│   └── reports/
+│       └── ExtentManager.java
+│
+├── src/test/java/
+│   ├── tests/                # Test classes
+│   │   ├── LoginTest.java
+│   │   ├── NewUserTest.java
+│   │   ├── SearchTest.java
+│   │   └── ApplyLeaveTest.java
+│   │
+│   └── listeners/
+│       └── TestNGListeners.java
+│
+├── config/
+│   └── config.properties     # URL, browser, credentials
+│
+├── data/
+│   └── TestData.xlsx         # Data-driven test data
+│
+├── reports/                  # Generated reports folder
+│   └── (ExtentReports HTMLs)
+│
+├── screenshots/              # Screenshots on failure
+│   └── *.png
+│
+└── testng.xml                # TestNG suite file

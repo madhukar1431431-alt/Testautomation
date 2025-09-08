@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sequentialexecution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="sequential(failed)">
+    <classes>
+      <class name="Test.logintest1testng">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testNewUser"/>
+        </methods>
+      </class> <!-- Test.logintest1testng -->
+    </classes>
+  </test> <!-- sequential(failed) -->
+</suite> <!-- Failed suite [sequentialexecution] -->
